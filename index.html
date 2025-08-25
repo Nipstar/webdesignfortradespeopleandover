@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade Website Design Andover Hampshire - Professional Web Solutions</title>
+    <meta name="description" content="Professional trade website design in Andover, Hampshire. Specialists in builder, plumber, electrician websites. Generate more leads with our expert web design services.">
+    <meta name="keywords" content="andover web design, hampshire trade websites, professional website design, builder websites andover, electrician web design hampshire">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebDesignService",
+      "@id": "https://s3.amazonaws.com/slstacks/webdesignfortradespeople/andover/id.html",
+      "name": "Trade Website Design Andover Hampshire",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Web Design For TradesPeople",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "4 Highlands Road",
+          "addressLocality": "Andover",
+          "addressRegion": "Hampshire",
+          "postalCode": "SP10 2PX",
+          "addressCountry": "GB"
+        },
+        "telephone": "0333 335 7920",
+        "email": "info@webdesignfortradespeople.co.uk",
+        "url": "https://webdesignfortradespeople.co.uk/andover/"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Andover"
+        },
+        {
+          "@type": "State",
+          "name": "Hampshire"
+        }
+      ],
+      "serviceType": "Website Design for Tradespeople",
+      "offers": {
+        "@type": "Offer",
+        "description": "Professional website design services for tradespeople",
+        "priceRange": "££-£££"
+      },
+      "sameAs": [
+        "https://share.google/4wpXbct26yrn1oMIU",
+        "https://www.facebook.com/people/Web-Design-For-Trades-People/61577626973640/",
+        "https://www.youtube.com/@WebDesign4TradesPeople"
+      ]
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #2d3748;
+            background: #ffffff;
+        }
+        
+        /* Navigation */
+        .nav-bar {
+            background: #1a365d;
+            padding: 15px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .nav-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .nav-logo img {
+            width: 50px;
+            height: 50px;
+            border-radius: 8px;
+            background: white;
+            padding: 8px;
+        }
+        
+        .nav-logo span {
+            color: white;
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+        
+        .nav-contact {
+            color: #90cdf4;
+            font-weight: 500;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-contact:hover {
+            color: white;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #2d3748 0%, #4a5568 50%, #718096 100%);
+            color: white;
+            padding: 120px 30px 80px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" fill="white" opacity="0.05"><path d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,149.3C960,160,1056,160,1152,149.3C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"/></svg>') no-repeat bottom;
+            background-size: cover;
+        }
+        
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            margin-bottom: 25px;
+            line-height: 1.1;
+        }
+        
+        .hero .subtitle {
+            font-size: 1.4rem;
+            margin-bottom: 40px;
+            opacity: 0.95;
+        }
+        
+        .hero-cta-group {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .cta-button {
+            padding: 18px 35px;
+            background: #3182ce;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            border: 2px solid #3182ce;
+        }
+        
+        .cta-button:hover {
+            background: transparent;
+            color: white;
+        }
+        
+        .cta-button.secondary {
+            background: transparent;
+            border: 2px solid white;
+        }
+        
+        .cta-button.secondary:hover {
+            background: white;
+            color: #2d3748;
+        }
+        
+        /* Services Section */
+        .services {
+            padding: 100px 30px;
+            background: #f7fafc;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        
+        .section-header h2 {
+            font-size: 3rem;
+            color: #1a202c;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .section-header p {
+            font-size: 1.2rem;
+            color: #4a5568;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+        }
+        
+        .service-card {
+            background: white;
+            padding: 50px 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            transition: all 0.4s ease;
+            border-top: 5px solid #3182ce;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+        }
+        
+        .service-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #3182ce, #2c5282);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 30px;
+            font-size: 32px;
+        }
+        
+        .service-card h3 {
+            font-size: 1.6rem;
+            color: #1a202c;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .service-card p {
+            color: #4a5568;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+        
+        /* Portfolio Showcase */
+        .portfolio {
+            padding: 100px 30px;
+            background: white;
+        }
+        
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 50px;
+            margin-top: 60px;
+        }
+        
+        .portfolio-item {
+            background: #f7fafc;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+            transition: all 0.4s ease;
+        }
+        
+        .portfolio-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 30px 60px rgba(0,0,0,0.12);
+        }
+        
+        .portfolio-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        
+        .portfolio-content {
+            padding: 40px;
+        }
+        
+        .portfolio-content h3 {
+            font-size: 1.5rem;
+            color: #1a202c;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .portfolio-content p {
+            color: #4a5568;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        
+        /* Video Section */
+        .video-section {
+            padding: 100px 30px;
+            background: linear-gradient(135deg, #edf2f7 0%, #e2e8f0 100%);
+            text-align: center;
+        }
+        
+        .video-wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .video-embed {
+            width: 100%;
+            height: 500px;
+            border: 0;
+            border-radius: 15px;
+        }
+        
+        /* Wikipedia Section */
+        .wikipedia-section {
+            padding: 100px 30px;
+            background: #f7fafc;
+        }
+        
+        .wikipedia-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+        
+        .wikipedia-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+        }
+        
+        .wikipedia-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 45px rgba(0,0,0,0.12);
+        }
+        
+        .wikipedia-header {
+            background: linear-gradient(135deg, #3182ce, #2c5282);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .wikipedia-header h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        
+        .wikipedia-iframe {
+            width: 100%;
+            height: 400px;
+            border: 0;
+        }
+        
+        /* Location & Contact */
+        .contact-location {
+            padding: 100px 30px;
+            background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+            color: white;
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .contact-info h2 {
+            font-size: 2.8rem;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+        
+        .contact-info p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.95;
+            line-height: 1.7;
+        }
+        
+        .contact-details {
+            display: grid;
+            gap: 20px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px 20px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+        }
+        
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background: white;
+            color: #1a365d;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+        
+        .map-container {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.3);
+        }
+        
+        .map-embed {
+            width: 100%;
+            height: 450px;
+            border: 0;
+        }
+        
+        /* Footer */
+        .footer {
+            background: #0d1117;
+            color: white;
+            padding: 80px 30px 40px;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .footer h3 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+        
+        .footer-link {
+            color: #90cdf4;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 10px 20px;
+            border: 1px solid #90cdf4;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+        
+        .footer-link:hover {
+            background: #90cdf4;
+            color: #0d1117;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-content {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .services,
+            .portfolio,
+            .video-section,
+            .wikipedia-section,
+            .contact-location,
+            .footer {
+                padding: 60px 20px;
+            }
+            
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 50px;
+            }
+            
+            .portfolio-grid,
+            .wikipedia-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .video-embed {
+                height: 300px;
+            }
+            
+            .wikipedia-iframe {
+                height: 350px;
+            }
+            
+            .map-embed {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body vocab="http://schema.org/" typeof="WebDesignService">
+    <!-- Navigation -->
+    <nav class="nav-bar">
+        <div class="nav-content">
+            <div class="nav-logo">
+                <img src="https://webdesignfortradespeople.co.uk/wp-content/uploads/2025/06/wd4t-icon.png" alt="Web Design For TradesPeople" property="logo">
+                <span property="name">Web Design For TradesPeople</span>
+            </div>
+            <a href="tel:0333335792" class="nav-contact" property="telephone">📞 0333 335 7920</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Professional Trade Website Design</h1>
+            <p class="subtitle">Helping Hampshire tradespeople build powerful online presences that generate leads and grow their businesses</p>
+            <div class="hero-cta-group">
+                <a href="tel:0333335792" class="cta-button">Get Your Quote</a>
+                <a href="#services" class="cta-button secondary">View Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Specialised Services</h2>
+                <p>We focus exclusively on creating websites for tradespeople, understanding your unique needs and delivering solutions that convert visitors into customers.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Trade-Specific Design</h3>
+                    <p>Custom website designs tailored specifically for plumbers, electricians, builders, and other skilled tradespeople. Every element is optimised for your industry.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Mobile-First Development</h3>
+                    <p>Responsive websites that work perfectly on all devices. Most customers will find you on their mobile, so we ensure your site looks brilliant on every screen size.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3>Local SEO Optimisation</h3>
+                    <p>Comprehensive local search optimisation to help you rank higher in Andover, Hampshire, and surrounding areas. Get found by customers in your service area.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Lead Generation Focus</h3>
+                    <p>Every website we build is designed with one goal: generating qualified leads for your trade business. Strategic placement of contact forms and call-to-actions.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🏆</div>
+                    <h3>Portfolio Showcases</h3>
+                    <p>Professional galleries to display your best work, customer testimonials, and certifications. Build trust with potential customers before they contact you.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Fast Loading Speed</h3>
+                    <p>Optimised websites that load quickly on all devices. Slow websites lose customers - we ensure yours loads in under 3 seconds every time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Recent Projects</h2>
+                <p>See examples of our recent trade website projects across Hampshire, showcasing different industries and design approaches.</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://webdesignfortradespeople.co.uk/wp-content/uploads/2025/08/heating-engineers-web-design-andover.png" alt="Heating Engineers Website Andover" class="portfolio-image" property="image">
+                    <div class="portfolio-content">
+                        <h3>Heating Engineers - Andover</h3>
+                        <p>Complete website redesign for established heating and plumbing company in Andover. Features online booking system, emergency contact options, and comprehensive service area coverage.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="https://webdesignfortradespeople.co.uk/wp-content/uploads/2025/08/electricians-web-design-hampshire.png" alt="Electricians Website Hampshire" class="portfolio-image" property="image">
+                    <div class="portfolio-content">
+                        <h3>Electrical Contractors - Hampshire</h3>
+                        <p>Professional website for electrical contractors covering Hampshire. Includes certification displays, emergency services section, and detailed service descriptions with pricing guides.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Watch Our Introduction</h2>
+                <p>Discover how we help tradespeople across Hampshire build successful online businesses through effective website design and digital marketing strategies.</p>
+            </div>
+            
+            <div class="video-wrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xLzbnKxpSBw?si=RX-0TTPdUk1K2Dvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video-embed"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wikipedia References -->
+    <section class="wikipedia-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Industry & Location Knowledge</h2>
+                <p>Our expertise spans deep knowledge of web design principles, understanding of tradespeople's needs, and comprehensive knowledge of the Andover and Hampshire market.</p>
+            </div>
+            
+            <div class="wikipedia-grid">
+                <div class="wikipedia-card">
+                    <div class="wikipedia-header">
+                        <h3>Andover, Hampshire</h3>
+                    </div>
+                    <iframe src="https://en.wikipedia.org/wiki/Andover,_Hampshire" class="wikipedia-iframe" title="Andover Hampshire Information" loading="lazy"></iframe>
+                </div>
+                
+                <div class="wikipedia-card">
+                    <div class="wikipedia-header">
+                        <h3>Web Design Industry</h3>
+                    </div>
+                    <iframe src="https://en.wikipedia.org/wiki/Web_design" class="wikipedia-iframe" title="Web Design Industry Information" loading="lazy"></iframe>
+                </div>
+                
+                <div class="wikipedia-card">
+                    <div class="wikipedia-header">
+                        <h3>Tradespeople Sector</h3>
+                    </div>
+                    <iframe src="https://en.wikipedia.org/wiki/Tradesperson" class="wikipedia-iframe" title="Tradespeople Industry Information" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Location -->
+    <section class="contact-location">
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h2>Get In Touch Today</h2>
+                <p>Ready to transform your trade business with a professional website? Based in Andover, Hampshire, we're perfectly positioned to serve tradespeople throughout the region.</p>
+                <p>Contact us today for a free consultation and discover how a professional website can generate more leads and grow your business.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <strong property="telephone">0333 335 7920</strong>
+                            <br><small>Monday - Friday, 9:00 AM - 5:30 PM</small>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <strong property="email">info@webdesignfortradespeople.co.uk</strong>
+                            <br><small>Email us anytime for a quick response</small>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div property="address" typeof="PostalAddress">
+                            <strong><span property="streetAddress">4 Highlands Road</span>, <span property="addressLocality">Andover</span></strong>
+                            <br><small><span property="addressRegion">Hampshire</span> <span property="postalCode">SP10 2PX</span></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d159971.47496243267!2d-1.7714357054687495!3d51.208863900000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487407f1675505fd%3A0x7e71377c2aa2f5fb!2sWeb%20Design%20for%20Tradespeople!5e0!3m2!1sen!2suk!4v1756065439963!5m2!1sen!2suk" class="map-embed" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>Web Design For TradesPeople</h3>
+            <p style="max-width: 800px; margin: 0 auto 30px; opacity: 0.9;">Professional website design services exclusively for tradespeople in Andover, Hampshire, and surrounding areas. Transform your trade business with a website that generates leads and grows your customer base.</p>
+            
+            <div class="footer-links">
+                <a href="https://webdesignfortradespeople.co.uk/andover/" class="footer-link" property="url">Main Website</a>
+                <a href="https://share.google/4wpXbct26yrn1oMIU" class="footer-link" property="sameAs">Google Business</a>
+                <a href="tel:0333335792" class="footer-link">Call Now</a>
+                <a href="mailto:info@webdesignfortradespeople.co.uk" class="footer-link">Email Us</a>
+            </div>
+            
+            <p style="margin-top: 40px; opacity: 0.7; border-top: 1px solid #2d3748; padding-top: 30px;">&copy; 2025 Web Design For TradesPeople. All rights reserved. Professional website design for Hampshire tradespeople.</p>
+        </div>
+    </footer>
+</body>
+</html>
