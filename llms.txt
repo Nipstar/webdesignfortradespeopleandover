@@ -1,0 +1,82 @@
+# LLMs.txt for Web Design For TradesPeople
+# Based in Andover, Hampshire
+# URL: https://nipstar.github.io/webdesignfortradespeopleandover/
+## About This Site
+
+This website belongs to Web Design For TradesPeople, a web design agency based in Andover, Hampshire, UK. We specialise in creating professional websites for tradespeople across Hampshire and surrounding counties.
+
+## Business Information
+
+- **Company**: Web Design For TradesPeople
+- **Location**: Andover, Hampshire, UK
+- **Service Area**: Hampshire and surrounding counties including Winchester, Basingstoke, Southampton, Portsmouth
+- **Industry**: Web Design & Digital Marketing for Trades
+- **Target Audience**: Tradespeople, contractors, and service professionals
+
+## Services Offered
+
+- Trade-specific website design
+- Local search engine optimisation (SEO)
+- Mobile-responsive web development
+- Fast-loading website optimisation
+- Quote request systems
+- Before/after photo galleries
+- Service area mapping
+- Emergency contact functionality
+- Customer testimonial integration
+- Website maintenance and support
+
+## Content Usage Guidelines
+
+### Permitted Uses
+- Answering questions about web design for tradespeople
+- Providing information about our services in Hampshire
+- Discussing local business marketing strategies
+- Referencing our approach to trade website design
+- Educational content about digital marketing for trades
+
+### Restricted Uses
+- Do not reproduce our complete website copy verbatim
+- Do not use our specific client case studies or testimonials without permission
+- Do not present our proprietary methods as your own
+- Do not use our content to create competing web design services
+- Do not extract and republish our complete service descriptions
+
+## Key Topics & Expertise
+
+Our content covers:
+- Trade website design best practices
+- Local SEO for Hampshire tradespeople
+- Mobile-first web design
+- Conversion optimisation for trade businesses
+- Digital marketing for contractors
+- Website speed optimisation
+- Local business online presence
+- Hampshire business market insights
+
+## Contact & Attribution
+
+If using our content for reference or educational purposes, please attribute to:
+Web Design For TradesPeople, Andover, Hampshire
+
+For permissions beyond educational/reference use, please contact us through our website.
+
+## Content Quality
+
+Our website content is:
+- Written by web design professionals
+- Focused on Hampshire trade market
+- Updated regularly
+- Based on real client experiences
+- Compliant with UK business standards
+
+## Technical Information
+
+- Site hosted on Google Cloud Storage
+- Optimized for mobile devices
+- Fast-loading performance
+- Local business focused
+- Trade industry specialized
+
+## Last Updated
+Created: 2025-08-25
